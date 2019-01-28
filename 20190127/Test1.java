@@ -1,12 +1,13 @@
+//ìˆ˜ ë‘ê°œ ë°›ì•„ì„œ í•©êµ¬í•˜ëŠ” í…Œì´ë¸” ì§œê¸°
 import java.util.Scanner;
 
 public class Test1{
 	public static void main(String args[]){
 		Scanner input =new Scanner(System.in);
 		int a,b,total;
-		System.out.printf("Ã¹¹øÂ° ¾çÀÇ Á¤¼ö:");
+		System.out.printf("ì²«ë²ˆì§¸ ì–‘ì˜ ì •ìˆ˜:");
 		a=input.nextInt();
-		System.out.printf("µÎ¹øÂ° ¾çÀÇ Á¤¼ö:");
+		System.out.printf("ë‘ë²ˆì§¸ ì–‘ì˜ ì •ìˆ˜:");
 		b=input.nextInt();
 		total=a+b;
 		System.out.println("number     |decimal    |otcal      |hexadecimal|");
